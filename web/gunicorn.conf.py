@@ -4,3 +4,5 @@ accesslog = "/home/box/web/gunicorn/access.log"
 errorlog = "/home/box/web/gunicorn/error.log"
 pythonpath = "/home/box/web/ask"
 daemon = False
+worker = 5
+timeout = 60
