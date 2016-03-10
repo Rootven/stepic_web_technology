@@ -1,8 +1,6 @@
-bind = "0.0.0.0:8080"
-workers = 5
-user = "rootven"
-group = "rootven"
-logfile = "/home/box/gunicorn.log"
-loglevel = "info"
+bind = "0.0.0.0:8000"
+pidfile = "/home/box/web/gunicorn/gunicorn.pid"
+accesslog = "/home/box/web/gunicorn/access.log"
+errorlog = "/home/box/web/gunicorn/error.log"
+pythonpath = "/home/box/web/ask"
 daemon = False
-pythonpath = "/home/rootven/stepic/stepic_web_technology/web/hello.py"
